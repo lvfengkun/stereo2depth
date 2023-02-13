@@ -42,6 +42,3 @@ for i, (left_file, right_file) in enumerate(zip(left_images, right_images)):
 
       # Save the depth map to the output folder
       cv2.imwrite(os.path.join(output_path, "{}".format(left_file)), disparity)
-
-#left_imgs_path="F:\BaiduNetdiskDownload\08\image_2"
-#right_imgs_path="F:\BaiduNetdiskDownload\08\image_3"
